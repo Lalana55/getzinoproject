@@ -1,0 +1,45 @@
+
+.App{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.mainA{
+  position: relative;
+  width: 250px;
+  height: 210px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputA{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  font-size: 26px;
+  padding-left: 50px;
+}
+.deleteA{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+}
+input:focus {
+  outline: none;
+}
+.buttonA{
+  width: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.buttonA>button{
+  width: 100px;
+  height: 50px;
+}
+.textA{
+  margin-right: 10px;
+}
